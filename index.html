@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Local Storage</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h3 class="title">Comments</h3>
+      <div class="comments">
+        <div class="comment flex items justify-start">
+          <img
+            class="avatar"
+            src="https://images.pexels.com/photos/35183/people-homeless-man-male.jpg"
+            alt="Avatar"
+          />
+          <div class="flex-1">
+            <h3 class="author">Jemes Doue</h3>
+            <div class="body">This is comment in JavaScript</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="comment new flex items-start jutify-start">
+        <img
+          class="avatar"
+          src="https://images.pexels.com/photos/35183/people-homeless-man-male.jpg"
+          alt="Avatar"
+        />
+        <div class="flex-1">
+          <h3 class="author">Jemes Doue</h3>
+          <form action="#" class="form">
+            <textarea
+              class="commentInput"
+              placeholder="write a comment"
+            ></textarea>
+            <input type="submit" class="submit" value="Reply Comment" />
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
